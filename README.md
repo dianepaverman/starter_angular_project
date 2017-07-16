@@ -1,8 +1,4 @@
-# rkfitness
-
-npm test won't work in windows 10 so in the terminal, do 
-$ SET NODE_ENV=development
-$node ./bin/www
+# Starter Project
 
 ## Project Setup
 Full Guide: http://start.jcolemorrison.com/building-an-angular-and-express-app-part-1/
@@ -32,3 +28,8 @@ Full Guide: http://start.jcolemorrison.com/building-an-angular-and-express-app-p
 23.	Cd ../client
 24.	Grunt serve
 25.	Should be getting data from the server, or at least no errors
+
+## Notes
+npm test won't work in windows 10 so in the terminal, do 
+$ SET NODE_ENV=development
+$node ./bin/www
