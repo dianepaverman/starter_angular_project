@@ -22,15 +22,18 @@ Full Guide: http://start.jcolemorrison.com/building-an-angular-and-express-app-p
 17.	Cd ../server
 18.	Express
 19.	Npm install
-20.	Npm i cors --save
-21. Reset overwritten files
+20.	Npm i cors –save
+21.	Reset overwritten files
 22.	Npm run dev
 23.	Go to “localhost:3000/api/users” in the browser to make sure it’s working
 24.	Cd ../client
 25.	Grunt serve
 26.	Should be getting data from the server, or at least no errors
 
-## Notes
-npm test won't work in windows 10 so in the terminal, do 
-$ SET NODE_ENV=development
-$node ./bin/www
+
+##To set up a new route
+1.	Go to the client folder
+2.	Yo angular:route NameOfRoute
+3.	Check it out at localhost:3000/#/NameOfRoute
+4.	Add a corresponding stylesheet: client/app/styles/partials/_NameOfRoute.scss
+5.	Open up main.scss and add @import “partials/signup”;
